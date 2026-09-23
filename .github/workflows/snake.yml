@@ -1,35 +1,36 @@
-name: Refresh Spotify Profile Panels
+name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "30 20 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  spotify:
+  snake:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout profile
         uses: actions/checkout@v5
 
-      - name: Refresh Spotify SVG panels
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-        run: python3 scripts/spotify_profile.py
+      - name: Generate snake contribution graph
+        uses: Platane/snk@v3
+        with:
+          github_user_name: itsprathi
+          outputs: |
+            assets/github-snake.svg?palette=github-light&color_snake=#8B5CF6
+            assets/github-snake-dark.svg?palette=github-dark&color_snake=#00E5FF
 
-      - name: Commit updated Spotify panels
+      - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/spotify-now-playing.svg assets/spotify-queue.svg assets/spotify-history.svg assets/spotify-top.svg
+          git add assets/github-snake.svg assets/github-snake-dark.svg
           if git diff --cached --quiet; then
-            echo "No Spotify changes."
+            echo "No snake changes."
             exit 0
           fi
-          git commit -m "chore: refresh Spotify profile panels"
+          git commit -m "chore: refresh contribution snake"
           git push
