@@ -1,0 +1,35 @@
+name: Refresh Spotify Profile Panels
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  spotify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile
+        uses: actions/checkout@v5
+
+      - name: Refresh Spotify SVG panels
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: python3 scripts/spotify_profile.py
+
+      - name: Commit updated Spotify panels
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/spotify-now-playing.svg assets/spotify-queue.svg assets/spotify-history.svg assets/spotify-top.svg
+          if git diff --cached --quiet; then
+            echo "No Spotify changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh Spotify profile panels"
+          git push
