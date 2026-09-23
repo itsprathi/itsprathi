@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 360" role="img">
+  <title>Pratheesh Kumar neon terminal banner</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#050812"/>
+      <stop offset="55%" stop-color="#0B1022"/>
+      <stop offset="100%" stop-color="#120A24"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#1D2A4A" stroke-width="1" opacity=".45"/>
+    </pattern>
+  </defs>
+
+  <rect width="1500" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1500" height="360" fill="url(#grid)" opacity=".45"/>
+
+  <circle cx="1250" cy="95" r="150" fill="#00E5FF" opacity=".05"/>
+  <circle cx="1400" cy="260" r="190" fill="#8B5CF6" opacity=".06"/>
+
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="72" y="76" fill="#60A5FA" font-size="22">$ whoami</text>
+    <text x="72" y="125" fill="#F8FAFC" font-size="54" font-weight="800">PRATHEESH KUMAR</text>
+    <text x="75" y="168" fill="#00E5FF" font-size="24">@itsprathi</text>
+    <text x="75" y="215" fill="#A7B0C0" font-size="20">Java • Python • Android • IoT • Full Stack • Linux</text>
+    <text x="75" y="252" fill="#8B5CF6" font-size="18">CanoJoy Labs // build • break • debug • ship</text>
+    <text x="75" y="302" fill="#64748B" font-size="18">status: ONLINE <tspan fill="#00E5FF">●</tspan></text>
+
+    <rect x="1020" y="82" width="330" height="210" rx="18" fill="#070B15" stroke="url(#glow)" stroke-width="2"/>
+    <text x="1050" y="122" fill="#64748B" font-size="16">~/prathi</text>
+    <text x="1050" y="156" fill="#60A5FA" font-size="17">$ git status</text>
+    <text x="1050" y="184" fill="#A7F3D0" font-size="16">On branch main</text>
+    <text x="1050" y="212" fill="#A7B0C0" font-size="16">working tree clean</text>
+    <text x="1050" y="244" fill="#8B5CF6" font-size="17">$ ./build</text>
+    <text x="1050" y="270" fill="#00E5FF" font-size="16">BUILD SUCCESS ✓</text>
+  </g>
+
+  <g filter="url(#soft)" opacity=".8">
+    <circle cx="1090" cy="324" r="4" fill="#00E5FF">
+      <animate attributeName="opacity" values=".2;1;.2" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="324" r="4" fill="#8B5CF6">
+      <animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1150" cy="324" r="4" fill="#60A5FA">
+      <animate attributeName="opacity" values=".2;1;.2" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <line x1="0" y1="344" x2="1500" y2="344" stroke="url(#glow)" stroke-width="2" opacity=".8">
+    <animate attributeName="x1" values="-200;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="1300;1500" dur="4s" repeatCount="indefinite"/>
+  </line>
+</svg>

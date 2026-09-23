@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170">
+<rect width="1000" height="170" rx="16" fill="#070A12" stroke="#1F2A44"/>
+<text x="50" y="70" fill="#00E5FF" font-family="Consolas,monospace" font-size="20">CONTRIBUTION SNAKE</text>
+<text x="50" y="108" fill="#A7B0C0" font-family="Consolas,monospace" font-size="16">Run the GitHub Action once to generate the live contribution animation.</text>
+</svg>

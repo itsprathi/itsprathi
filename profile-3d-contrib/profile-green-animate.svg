@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340">
+<rect width="1000" height="340" rx="20" fill="#070A12" stroke="#1F2A44"/>
+<text x="50" y="120" fill="#00E5FF" font-family="Consolas,monospace" font-size="24">3D CONTRIBUTION CITY</text>
+<text x="50" y="165" fill="#A7B0C0" font-family="Consolas,monospace" font-size="18">Run GitHub-Profile-3D-Contrib once to generate the live 3D calendar.</text>
+<text x="50" y="205" fill="#64748B" font-family="Consolas,monospace" font-size="15">profile-3d-contrib/profile-green-animate.svg</text>
+</svg>

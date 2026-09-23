@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300">
+  <defs>
+    <linearGradient id="c" x1="0" x2="1"><stop stop-color="#00E5FF"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1100" height="300" rx="20" fill="#070A12" stroke="#1F2A44"/>
+  <rect x="22" y="22" width="1056" height="258" rx="14" fill="#0B1220"/>
+  <circle cx="48" cy="46" r="6" fill="#FF5C5C"/><circle cx="70" cy="46" r="6" fill="#F6C945"/><circle cx="92" cy="46" r="6" fill="#2BD576"/>
+  <g font-family="Consolas,monospace" font-size="18">
+    <text x="44" y="88" fill="#64748B">prathi@linux</text><text x="184" y="88" fill="#00E5FF">:</text><text x="196" y="88" fill="#A7B0C0">~$</text>
+    <text x="44" y="120" fill="#60A5FA">echo</text><text x="105" y="120" fill="#F8FAFC"> "build something worth remembering"</text>
+    <text x="44" y="154" fill="#A7B0C0">build something worth remembering</text>
+    <text x="44" y="190" fill="#60A5FA">./profile_status.sh</text>
+    <text x="44" y="224" fill="#00E5FF">[online]</text><text x="154" y="224" fill="#A7B0C0"> projects_loaded=∞</text>
+    <text x="44" y="256" fill="#8B5CF6">[anime]</text><text x="150" y="256" fill="#A7B0C0"> [music]</text><text x="250" y="256" fill="#60A5FA"> [games]</text><text x="350" y="256" fill="#00E5FF"> [linux]</text>
+    <text x="1010" y="88" fill="#00E5FF">█<animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></text>
+  </g>
+  <path d="M36 272 H1064" stroke="url(#c)" opacity=".8">
+    <animate attributeName="stroke-dasharray" values="0 1100;500 600;1100 0;0 1100" dur="5s" repeatCount="indefinite"/>
+  </path>
+</svg>

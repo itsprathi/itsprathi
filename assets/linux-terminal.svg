@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 250">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#00E5FF"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <pattern id="scan" width="4" height="8" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#17233E" opacity=".4"/></pattern>
+  </defs>
+  <rect width="1150" height="250" rx="22" fill="#050812" stroke="#1F2A44"/>
+  <rect width="1150" height="250" rx="22" fill="url(#scan)" opacity=".45"/>
+  <g font-family="Consolas,monospace" font-size="18">
+    <text x="34" y="46" fill="#00E5FF">╭─[ prathi@linux ]─[ ~ ]</text>
+    <text x="34" y="80" fill="#60A5FA">$ uname -a</text>
+    <text x="200" y="80" fill="#A7B0C0">Linux prathi x86_64 GNU/Linux</text>
+    <text x="34" y="112" fill="#60A5FA">$ uptime</text>
+    <text x="200" y="112" fill="#A7B0C0">building projects, learning things, repeating</text>
+    <text x="34" y="144" fill="#60A5FA">$ cat ~/.profile</text>
+    <text x="200" y="144" fill="#A7B0C0">Java + Python + Android + IoT + UI/UX</text>
+    <text x="34" y="176" fill="#60A5FA">$ echo $MOOD</text>
+    <text x="200" y="176" fill="#8B5CF6">NEON_TERMINAL_MODE</text>
+    <text x="34" y="208" fill="#00E5FF">╰─&gt; READY</text>
+  </g>
+  <rect x="30" y="228" width="1090" height="2" fill="url(#line)">
+    <animate attributeName="x" values="-100;100;300;600;900;1150" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
