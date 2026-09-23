@@ -19,7 +19,7 @@
   <a href="https://github.com/itsprathi"><img src="https://img.shields.io/badge/GitHub-itsprathi-0B1220?style=for-the-badge&logo=github&logoColor=00E5FF" /></a>
   <a href="https://www.linkedin.com/in/pratheeshkumarg"><img src="https://img.shields.io/badge/LinkedIn-Pratheesh%20Kumar-0B1220?style=for-the-badge&logo=linkedin&logoColor=60A5FA" /></a>
   <a href="https://www.instagram.com/its.prathi"><img src="https://img.shields.io/badge/Instagram-@its.prathi-0B1220?style=for-the-badge&logo=instagram&logoColor=FF5CF4" /></a>
-  <br>
+  <br> <br>
   <img src="https://komarev.com/ghpvc/?username=itsprathi&label=PROFILE+VIEWS&color=00E5FF&style=for-the-badge" alt="profile views" />
 </p>
 
