@@ -8,12 +8,20 @@ on:
 permissions:
   contents: write
 
+# Prevent two Spotify runs from pushing to main at the same time.
+concurrency:
+  group: spotify-profile
+  cancel-in-progress: true
+
 jobs:
   spotify:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout profile
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Refresh Spotify SVG panels
         env:
@@ -26,10 +34,22 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/spotify-now-playing.svg assets/spotify-queue.svg assets/spotify-history.svg assets/spotify-top.svg
+
+          git add \
+            assets/spotify-now-playing.svg \
+            assets/spotify-queue.svg \
+            assets/spotify-history.svg \
+            assets/spotify-top.svg
+
           if git diff --cached --quiet; then
             echo "No Spotify changes."
             exit 0
           fi
+
           git commit -m "chore: refresh Spotify profile panels"
-          git push
+
+          # Bring in any commits that reached main after checkout.
+          git pull --rebase origin main
+
+          # Push the rebased commit.
+          git push origin main
