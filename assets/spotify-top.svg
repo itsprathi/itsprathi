@@ -1,9 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280">
 <defs><linearGradient id="a" x1="0" x2="1"><stop stop-color="#00E5FF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
-<rect width="1000" height="230" rx="18" fill="#070A12" stroke="#1F2A44"/>
-<rect x="24" y="24" width="6" height="182" rx="3" fill="url(#a)"/>
+<rect width="1000" height="280" rx="18" fill="#070A12" stroke="#1F2A44"/>
+<rect x="24" y="24" width="6" height="232" rx="3" fill="url(#a)"/>
 <g font-family="Consolas,monospace">
 <text x="55" y="58" fill="#00E5FF" font-size="18" font-weight="700">SPOTIFY // TOP SIGNAL</text>
-<text x="55" y="92" fill="#F8FAFC" font-size="18">Top artists/tracks will appear here after the first successful refresh.</text>
-<text x="55" y="206" fill="#64748B" font-size="14">user-top-read</text>
+<text x="55" y="92" fill="#F8FAFC" font-size="18">1. Anirudh Ravichander</text>
+<text x="55" y="120" fill="#F8FAFC" font-size="18">2. Yuvan Shankar Raja</text>
+<text x="55" y="148" fill="#F8FAFC" font-size="18">3. Hiphop Tamizha</text>
+<text x="55" y="176" fill="#F8FAFC" font-size="18">4. A.R. Rahman</text>
+<text x="55" y="204" fill="#F8FAFC" font-size="18">5. Sai Abhyankkar</text>
+<text x="55" y="256" fill="#64748B" font-size="14">Short-term listening signal</text>
 </g></svg>

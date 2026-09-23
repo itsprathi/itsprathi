@@ -1,9 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230">
-<defs><linearGradient id="a" x1="0" x2="1"><stop stop-color="#00E5FF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
-<rect width="1000" height="230" rx="18" fill="#070A12" stroke="#1F2A44"/>
-<rect x="24" y="24" width="6" height="182" rx="3" fill="url(#a)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 315">
+<defs><linearGradient id="a" x1="0" x2="1"><stop stop-color="#60A5FA"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+<rect width="1000" height="315" rx="18" fill="#070A12" stroke="#1F2A44"/>
+<rect x="24" y="24" width="6" height="267" rx="3" fill="url(#a)"/>
 <g font-family="Consolas,monospace">
-<text x="55" y="58" fill="#00E5FF" font-size="18" font-weight="700">SPOTIFY // RECENT HISTORY</text>
-<text x="55" y="92" fill="#F8FAFC" font-size="18">Recent history will appear here after the first successful refresh.</text>
-<text x="55" y="206" fill="#64748B" font-size="14">user-read-recently-played</text>
+<text x="55" y="58" fill="#60A5FA" font-size="18" font-weight="700">SPOTIFY // RECENT HISTORY</text>
+<text x="55" y="92" fill="#F8FAFC" font-size="18">Bae (From &quot;Don&quot;) — Anirudh Ravichander, Adithya RK, Vignesh Shivan  [2026-09-23 07:01]</text>
+<text x="55" y="120" fill="#F8FAFC" font-size="18">Im so cool (From &quot;Kaaki Sattai&quot;) — Anirudh Ravichander, Arunraja Kamaraj, Sivakarthikeyan  [2026-09-23 06:57]</text>
+<text x="55" y="148" fill="#F8FAFC" font-size="18">Ennai Kollathey — Kumaresh, Keshini  [2026-09-23 06:53]</text>
+<text x="55" y="176" fill="#F8FAFC" font-size="18">Engeyo Paartha — Yuvan Shankar Raja, Udit Narayan, Na.Muthukumar  [2026-09-23 06:47]</text>
+<text x="55" y="204" fill="#F8FAFC" font-size="18">Thuli Thuli (From &quot;Paiya&quot;) — Yuvan Shankar Raja, Haricharan, Tanvi Shah, Na.Muthukumar  [2026-09-23 06:42]</text>
+<text x="55" y="232" fill="#F8FAFC" font-size="18">Golden Sparrow (From &quot;Nilavuku En Mel Ennadi Kobam&quot;) — G. V. Prakash, Arivu, Dhanush, Sublahshini  [2026-09-23 06:38]</text>
+<text x="55" y="291" fill="#64748B" font-size="14">Last 6 recently played tracks</text>
 </g></svg>
