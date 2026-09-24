@@ -1,11 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230">
-<defs><linearGradient id="a" x1="0" x2="1"><stop stop-color="#00E5FF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+<defs><linearGradient id="a" x1="0" x2="1"><stop stop-color="#60A5FA"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
 <rect width="1000" height="230" rx="18" fill="#070A12" stroke="#1F2A44"/>
 <rect x="24" y="24" width="6" height="182" rx="3" fill="url(#a)"/>
 <g font-family="Consolas,monospace">
-<text x="55" y="58" fill="#00E5FF" font-size="18" font-weight="700">SPOTIFY // NOW PLAYING</text>
-<text x="55" y="92" fill="#F8FAFC" font-size="18">▶  Thanjavoor Jilla Kaari</text>
-<text x="55" y="120" fill="#F8FAFC" font-size="18">by Mani Sharma, Hemachandra Vedala, Saindhavi, Na.Muthukumar</text>
-<text x="55" y="148" fill="#F8FAFC" font-size="18">album: Suraa (Original Motion Picture Soundtrack)</text>
-<text x="55" y="206" fill="#64748B" font-size="14">Live playback panel • Spotify Web API</text>
+<text x="55" y="58" fill="#60A5FA" font-size="18" font-weight="700">SPOTIFY // NOW PLAYING</text>
+<text x="55" y="92" fill="#F8FAFC" font-size="18">Nothing is playing right now.</text>
+<text x="55" y="206" fill="#64748B" font-size="14">Spotify did not return an active track</text>
 </g></svg>
