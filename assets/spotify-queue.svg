@@ -4,11 +4,6 @@
 <rect x="24" y="24" width="6" height="252" rx="3" fill="url(#a)"/>
 <g font-family="Consolas,monospace">
 <text x="55" y="58" fill="#8B5CF6" font-size="18" font-weight="700">SPOTIFY // QUEUE</text>
-<text x="55" y="92" fill="#F8FAFC" font-size="18">→ Vaa Vaa Pakkam Vaa - Remix — DJ Gowtham, Ilaiyaraaja, S. P. Balasubrahmanyam, Vani Jairam</text>
-<text x="55" y="120" fill="#F8FAFC" font-size="18">→ Kannamma — Sam C.S., Anirudh Ravichander</text>
-<text x="55" y="148" fill="#F8FAFC" font-size="18">→ Kanimaa (From &quot;Retro&quot;) — Santhosh Narayanan, The Indian Choral Ensemble, Vivek</text>
-<text x="55" y="176" fill="#F8FAFC" font-size="18">→ Pathikichu (From &quot;Vidaamuyarchi&quot;) — Anirudh Ravichander, Yogi Sekar, Amogh Balaji</text>
-<text x="55" y="204" fill="#F8FAFC" font-size="18">→ Og Sambavam (From &quot;Good Bad Ugly&quot;) — G. V. Prakash, Adhik Ravi Chandran, Vishnu Edavan</text>
-<text x="55" y="232" fill="#F8FAFC" font-size="18">→ Illuminati — Sushin Shyam, Dabzee, Vinayak Sasikumar</text>
+<text x="55" y="92" fill="#F8FAFC" font-size="18">Queue is empty or unavailable.</text>
 <text x="55" y="276" fill="#64748B" font-size="14">Next tracks returned by the current playback queue</text>
 </g></svg>
