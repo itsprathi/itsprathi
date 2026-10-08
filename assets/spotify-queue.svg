@@ -4,6 +4,11 @@
 <rect x="24" y="24" width="6" height="252" rx="3" fill="url(#a)"/>
 <g font-family="Consolas,monospace">
 <text x="55" y="58" fill="#8B5CF6" font-size="18" font-weight="700">SPOTIFY // QUEUE</text>
-<text x="55" y="92" fill="#F8FAFC" font-size="18">Queue is empty or unavailable.</text>
+<text x="55" y="92" fill="#F8FAFC" font-size="18">→ Kattazhagi — Thaman S, Vivek</text>
+<text x="55" y="120" fill="#F8FAFC" font-size="18">→ Jodi Porutham — Siddhu Kumar, Lakshmikanth M, Vignesh Ramakrishna</text>
+<text x="55" y="148" fill="#F8FAFC" font-size="18">→ Poi Varava — Karthik, Chinmayi</text>
+<text x="55" y="176" fill="#F8FAFC" font-size="18">→ Roja Kadale — Harris Jayaraj, Shankar Mahadevan, Sunidhi Chauhan, Chinmayi, Vairamuthu</text>
+<text x="55" y="204" fill="#F8FAFC" font-size="18">→ Kuru Kuru — Sundar Narayana Rao</text>
+<text x="55" y="232" fill="#F8FAFC" font-size="18">→ Kannula Thimiru — Anirudh Ravichander, Chandramukhi Muvvala, Priya Murthy Chadalawala, Rachana Mudraboyina, Yogi B, Syan, Senthuzhan</text>
 <text x="55" y="276" fill="#64748B" font-size="14">Next tracks returned by the current playback queue</text>
 </g></svg>
