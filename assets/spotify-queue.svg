@@ -4,6 +4,11 @@
 <rect x="24" y="24" width="6" height="252" rx="3" fill="url(#a)"/>
 <g font-family="Consolas,monospace">
 <text x="55" y="58" fill="#8B5CF6" font-size="18" font-weight="700">SPOTIFY // QUEUE</text>
-<text x="55" y="92" fill="#F8FAFC" font-size="18">Queue is empty or unavailable.</text>
+<text x="55" y="92" fill="#F8FAFC" font-size="18">→ Oxygen — Hiphop Tamizha, Kabilan Vairamuthu, Sudharshan Ashok</text>
+<text x="55" y="120" fill="#F8FAFC" font-size="18">→ Thooriga - From &quot;Navarasa&quot; — Karthik</text>
+<text x="55" y="148" fill="#F8FAFC" font-size="18">→ Kadhalan — Havoc Mathan, Havoc Naven</text>
+<text x="55" y="176" fill="#F8FAFC" font-size="18">→ Unakkul Naane — Harris Jayaraj, Rohini, Pritt, dilushselva</text>
+<text x="55" y="204" fill="#F8FAFC" font-size="18">→ VIP Title Song — Anirudh Ravichander, Dhanush</text>
+<text x="55" y="232" fill="#F8FAFC" font-size="18">→ Jinguchaa (From &quot;Thug Life&quot;) (Tamil) — A.R. Rahman, Kamal Haasan, Vaishali Samant, Shakthisree Gopalan, Adithya RK</text>
 <text x="55" y="276" fill="#64748B" font-size="14">Next tracks returned by the current playback queue</text>
 </g></svg>
