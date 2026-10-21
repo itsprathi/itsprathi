@@ -4,11 +4,6 @@
 <rect x="24" y="24" width="6" height="252" rx="3" fill="url(#a)"/>
 <g font-family="Consolas,monospace">
 <text x="55" y="58" fill="#8B5CF6" font-size="18" font-weight="700">SPOTIFY // QUEUE</text>
-<text x="55" y="92" fill="#F8FAFC" font-size="18">→ Raga of Revenge — Anirudh Ravichander</text>
-<text x="55" y="120" fill="#F8FAFC" font-size="18">→ Naanga Naalu Peru - From &quot;Karuppu&quot; — Sai Abhyankkar, Silambarasan TR, Asal Kolaar, Arun Srinivasan</text>
-<text x="55" y="148" fill="#F8FAFC" font-size="18">→ Chillanjirukkiye — Sean Roldan, Pradeep Kumar, Sivaangi Krishnakumar, Mohan Rajan</text>
-<text x="55" y="176" fill="#F8FAFC" font-size="18">→ Sambavakaari — Sean Roldan, Saindhavi, Mohan Rajan</text>
-<text x="55" y="204" fill="#F8FAFC" font-size="18">→ Adada Mazhaida — Yuvan Shankar Raja, Rahul Nambiar, Saindhavi, Na.Muthukumar</text>
-<text x="55" y="232" fill="#F8FAFC" font-size="18">→ Pesamale — Siri Xander, Arra Aria Khayal</text>
+<text x="55" y="92" fill="#F8FAFC" font-size="18">Queue is empty or unavailable.</text>
 <text x="55" y="276" fill="#64748B" font-size="14">Next tracks returned by the current playback queue</text>
 </g></svg>
