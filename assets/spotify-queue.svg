@@ -4,6 +4,11 @@
 <rect x="24" y="24" width="6" height="252" rx="3" fill="url(#a)"/>
 <g font-family="Consolas,monospace">
 <text x="55" y="58" fill="#8B5CF6" font-size="18" font-weight="700">SPOTIFY // QUEUE</text>
-<text x="55" y="92" fill="#F8FAFC" font-size="18">Queue is empty or unavailable.</text>
+<text x="55" y="92" fill="#F8FAFC" font-size="18">→ Gillie - From &quot;Gilli&quot; — Vidyasagar, Tippu, Na.Muthukumar</text>
+<text x="55" y="120" fill="#F8FAFC" font-size="18">→ Raathu Raasan - From &quot;Karuppu&quot; — Sai Abhyankkar, V.M. Mahalingam, Paal Dabba, Vivek</text>
+<text x="55" y="148" fill="#F8FAFC" font-size="18">→ Chillanjirukkiye (From &quot;Lubber Pandhu&quot;) — Sean Roldan, Pradeep Kumar, Sivaangi Krishnakumar, Mohan Rajan</text>
+<text x="55" y="176" fill="#F8FAFC" font-size="18">→ Illuminati — Sushin Shyam, Dabzee, Vinayak Sasikumar</text>
+<text x="55" y="204" fill="#F8FAFC" font-size="18">→ Paththavaikkum (From &quot;Devara Part 1&quot;) — Deepthi Suresh, Anirudh Ravichander, Vignesh Shivan</text>
+<text x="55" y="232" fill="#F8FAFC" font-size="18">→ Mudhalvanae - From &quot;Mudhalvan&quot; — A.R. Rahman, S. Janaki, Shankar Mahadevan, Vairamuthu</text>
 <text x="55" y="276" fill="#64748B" font-size="14">Next tracks returned by the current playback queue</text>
 </g></svg>
