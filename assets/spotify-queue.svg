@@ -4,11 +4,6 @@
 <rect x="24" y="24" width="6" height="252" rx="3" fill="url(#a)"/>
 <g font-family="Consolas,monospace">
 <text x="55" y="58" fill="#8B5CF6" font-size="18" font-weight="700">SPOTIFY // QUEUE</text>
-<text x="55" y="92" fill="#F8FAFC" font-size="18">→ Golden Sparrow (From &quot;Nilavuku En Mel Ennadi Kobam&quot;) — G. V. Prakash, Arivu, Dhanush, Sublahshini</text>
-<text x="55" y="120" fill="#F8FAFC" font-size="18">→ Pirai Thedum — Saindhavi, G. V. Prakash</text>
-<text x="55" y="148" fill="#F8FAFC" font-size="18">→ Kaadhal En Kaviye (From &quot;Salmon 3D - Tamil&quot;) — Sid Sriram, Sreejith Edavana, Navin Kannan</text>
-<text x="55" y="176" fill="#F8FAFC" font-size="18">→ Ennai Kollathey — Kumaresh, Keshini</text>
-<text x="55" y="204" fill="#F8FAFC" font-size="18">→ Yathe Yathe — G. V. Prakash, Snehan</text>
-<text x="55" y="232" fill="#F8FAFC" font-size="18">→ Adheeraa (From &quot;Cobra&quot;) — A.R. Rahman, Vagu Mazan, Thoughtsfornow, Pa. Vijay</text>
+<text x="55" y="92" fill="#F8FAFC" font-size="18">Queue is empty or unavailable.</text>
 <text x="55" y="276" fill="#64748B" font-size="14">Next tracks returned by the current playback queue</text>
 </g></svg>
